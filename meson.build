@@ -33,16 +33,4 @@ deps = [  'ui', 'gfximage','gfx','posix','libwebp','libjpeg','nanosvg' ]
 
 src = files('bmp.c')
 
-installed_data += { 'name': 'png.png', 'dir': 'Baza/Slike/' }
-installed_data += { 'name': 'gif.gif', 'dir': 'Baza/Slike/' }
 installed_data += { 'name': 'slikovnica.html', 'dir': 'data/pomoc/' }
-
-#installed_data += { 'name': 'jpg.jpg', 'dir': '/' }
-#installed_data += { 'name': 'jpeg.jpeg', 'dir': '/' }
-#installed_data += { 'name': 'tga.tga', 'dir': '/' }
-#installed_data += { 'name': 'logo.tga', 'dir': '/' }
-#installed_data += { 'name': 'pnm.pnm', 'dir': '/' }
-#installed_data += { 'name': 'ppm.ppm', 'dir': '/' }
-installed_data += { 'name': 'ico.ico', 'dir': '/' }
-installed_data += { 'name': 'hdr.hdr', 'dir': '/' }
-installed_data += { 'name': 'svg.svg', 'dir': '/' }
